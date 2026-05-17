@@ -1,0 +1,13 @@
+---
+description: דפים — הרכבת רכיבים בלבד
+globs: "**/pages/**/*,**/app/**/*"
+alwaysApply: false
+---
+
+# דפים — הרכבה בלבד
+
+ראו DESIGN-TO-CODE.md חוק 2.
+
+אסור: עיצוב inline שמחליף רכיב MUI.
+
+שינוי ויזואלי → רכיב או `createAppTheme` ב-`@studiongsoft/design-lead` + `design-decisions/`.

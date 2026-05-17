@@ -1,0 +1,10 @@
+---
+description: Light + Dark + RTL
+alwaysApply: false
+---
+
+# Light + Dark
+
+בדקו עם `DesignModeToggle` מ-`@studiongsoft/design-lead`.
+
+אין hex קשיחים — `theme.palette` / `theme.vars`.

@@ -1,0 +1,11 @@
+---
+description: תיעוד שינוי רכיב
+globs: "**/packages/**/*,**/src/**/*"
+alwaysApply: false
+---
+
+# תיעוד שינוי
+
+1. `design-decisions/YYYY-MM-DD-*.md`
+2. `design-snapshots/` light + dark + RTL
+3. PR עם תבנית `design_system.md`

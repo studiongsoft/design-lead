@@ -1,0 +1,59 @@
+{
+  "name": "@studiongsoft/design-lead",
+  "version": "0.1.0",
+  "description": "Design-to-code governance and RTL theme kit for Material UI (Hebrew / RTL teams)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiongsoft/design-lead.git"
+  },
+  "homepage": "https://github.com/studiongsoft/design-lead#readme",
+  "bugs": {
+    "url": "https://github.com/studiongsoft/design-lead/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./theme": {
+      "types": "./dist/theme/index.d.ts",
+      "default": "./dist/theme/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "design-decisions",
+    "design-snapshots",
+    "docs",
+    "DESIGN-TO-CODE.md",
+    ".cursor/rules"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm run build"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.0.0",
+    "@mui/material": ">=6.0.0",
+    "@mui/stylis-plugin-rtl": ">=6.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "stylis": "^4.0.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.14.0",
+    "@mui/material": "^7.0.0",
+    "@mui/stylis-plugin-rtl": "^7.0.0",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "stylis": "^4.3.0",
+    "typescript": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

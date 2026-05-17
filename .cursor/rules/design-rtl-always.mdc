@@ -1,0 +1,21 @@
+---
+description: RTL תמיד — @studiongsoft/design-lead
+alwaysApply: true
+---
+
+# RTL תמיד
+
+קראו [DESIGN-TO-CODE.md](../../DESIGN-TO-CODE.md).
+
+## חובה
+
+```tsx
+import { AppThemeProvider } from '@studiongsoft/design-lead';
+```
+
+- `createTheme({ direction: 'rtl' })` + stylis RTL (מובנה בחבילה).
+- `dir="rtl"` על שורש התוכן.
+
+## חריגים
+
+רשמו ב-`docs/rtl-exceptions.md`.
